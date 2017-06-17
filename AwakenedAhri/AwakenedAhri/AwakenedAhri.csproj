@@ -39,6 +39,9 @@
     <Reference Include="SharpDX, Version=2.6.3.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1">
       <HintPath>..\..\..\Desktop\Hesa\Dependencies\SharpDX.dll</HintPath>
     </Reference>
+    <Reference Include="SharpDX.Direct3D9, Version=2.6.3.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1">
+      <HintPath>..\..\..\Desktop\Hesa\Dependencies\SharpDX.Direct3D9.dll</HintPath>
+    </Reference>
     <Reference Include="SharpDX.DirectInput, Version=2.6.3.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1">
       <HintPath>..\..\..\Desktop\Hesa\Dependencies\SharpDX.DirectInput.dll</HintPath>
     </Reference>
@@ -51,10 +54,10 @@
     <Compile Include="AhriCombo.cs" />
     <Compile Include="AhriDrawings.cs" />
     <Compile Include="AhriHarass.cs" />
-    <Compile Include="AhriKillsteal.cs" />
     <Compile Include="AhriLaneclear.cs" />
     <Compile Include="AhriMenu.cs" />
     <Compile Include="AwakenedAhri.cs" />
+    <Compile Include="AhriKillsteal.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

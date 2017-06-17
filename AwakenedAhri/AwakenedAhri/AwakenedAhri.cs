@@ -4,11 +4,10 @@ using HesaEngine.SDK.GameObjects;
 
 using static AwakenedAhri.AhriMenu;
 using static AwakenedAhri.AhriCombo;
-/*
 using static AwakenedAhri.AhriLaneclear;
 using static AwakenedAhri.AhriHarass;
-*/
 using static AwakenedAhri.AhriDrawings;
+using static AwakenedAhri.AhriKillsteal;
 
 namespace AwakenedAhri
 {
@@ -18,7 +17,7 @@ namespace AwakenedAhri
         public string Name => "AwakenedAhri";
         public string Version => "7.12";
         
-        public static Spell Q, W, E, R;
+        public static Spell Q, W, E, R, Ignite;
         public static AIHeroClient Ahri => ObjectManager.Player;
         public static Orbwalker.OrbwalkerInstance MyOrb => Core.Orbwalker;
         
@@ -31,7 +30,7 @@ namespace AwakenedAhri
         {
             if (ObjectManager.Player.Hero != Champion.Ahri) return;
 
-            Chat.Print("Awakened Ahri by Romanov Loaded");
+            Chat.Print("Awakened Ahri");
 
             SetMenu();
             SetSpells();
@@ -47,15 +46,17 @@ namespace AwakenedAhri
                 case Orbwalker.OrbwalkingMode.Combo:
                     UseCombo();
                     break;
-                /*
+                
                 case Orbwalker.OrbwalkingMode.LaneClear:
-                    LaneExec();
+                    UseLaneclear();
                     break;
+                
                 case Orbwalker.OrbwalkingMode.Harass:
-                    HarassExec();
+                    UseHarass();
                     break;
-                */
             }
+
+            UseKillsteal();
         }
 
         private void SetSpells()
@@ -65,8 +66,8 @@ namespace AwakenedAhri
             E = new Spell(SpellSlot.E, 975, TargetSelector.DamageType.Magical);
             R = new Spell(SpellSlot.R, 450, TargetSelector.DamageType.Magical);
 
-            Q.SetSkillshot(0.25f, 80f, 1700f, false, SkillshotType.SkillshotLine);
-            E.SetSkillshot(0.25f, 80f, 1600f, true, SkillshotType.SkillshotLine);
+            Q.SetSkillshot(0.25f, 100f, 1700f, false, SkillshotType.SkillshotLine);
+            E.SetSkillshot(0.25f, 60f, 1600f, true, SkillshotType.SkillshotLine);
         }
     }
 }
