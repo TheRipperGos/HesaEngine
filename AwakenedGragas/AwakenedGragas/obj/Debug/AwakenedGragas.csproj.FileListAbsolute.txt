@@ -1,0 +1,15 @@
+C:\Users\Marvin\RiderProjects\AwakenedGragas\AwakenedGragas\obj\Debug\AwakenedGragas.csprojResolveAssemblyReference.cache
+C:\Users\Marvin\RiderProjects\AwakenedGragas\AwakenedGragas\bin\Debug\AwakenedGragas.dll
+C:\Users\Marvin\RiderProjects\AwakenedGragas\AwakenedGragas\bin\Debug\AwakenedGragas.pdb
+C:\Users\Marvin\RiderProjects\AwakenedGragas\AwakenedGragas\bin\Debug\HesaEngine.Core.dll
+C:\Users\Marvin\RiderProjects\AwakenedGragas\AwakenedGragas\bin\Debug\SharpDX.Direct3D9.dll
+C:\Users\Marvin\RiderProjects\AwakenedGragas\AwakenedGragas\bin\Debug\SharpDX.DirectInput.dll
+C:\Users\Marvin\RiderProjects\AwakenedGragas\AwakenedGragas\bin\Debug\SharpDX.dll
+C:\Users\Marvin\RiderProjects\AwakenedGragas\AwakenedGragas\bin\Debug\HesaEngine.Wrapper.dll
+C:\Users\Marvin\RiderProjects\AwakenedGragas\AwakenedGragas\bin\Debug\Runtime.dll
+C:\Users\Marvin\RiderProjects\AwakenedGragas\AwakenedGragas\bin\Debug\HesaEngine.Core.dll.config
+C:\Users\Marvin\RiderProjects\AwakenedGragas\AwakenedGragas\bin\Debug\SharpDX.xml
+C:\Users\Marvin\RiderProjects\AwakenedGragas\AwakenedGragas\bin\Debug\SharpDX.Direct3D9.xml
+C:\Users\Marvin\RiderProjects\AwakenedGragas\AwakenedGragas\bin\Debug\SharpDX.DirectInput.xml
+C:\Users\Marvin\RiderProjects\AwakenedGragas\AwakenedGragas\obj\Debug\AwakenedGragas.dll
+C:\Users\Marvin\RiderProjects\AwakenedGragas\AwakenedGragas\obj\Debug\AwakenedGragas.pdb
